@@ -1,0 +1,78 @@
+body{
+    height:100vh ;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    /* margin-top: 10vh; */
+    height:500px;
+    width:500px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: aqua;
+}
+.answer_m{
+    height: 20px;
+    padding: 0px;
+    padding-bottom: 20px;
+    /* margin-bottom: 10px; */
+    /* margin-bottom: 10px; */
+    font-size: 40px;
+}
+
+.cal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.innn{
+    height: 25px;
+    width: 220px;
+    margin-bottom: 20px;
+    box-shadow: 0px 2px 8px rgb(59, 59, 59);
+    border-radius: 10px;
+    border: 1px solid rgb(57, 57, 57);
+}
+input{
+    font-size: 16px;
+    text-align: center;
+    outline: none;
+    margin-bottom: 10px;
+}
+select{
+    height: 28px;
+    width: 160px;
+    outline: none;
+    border-radius: 20px;
+}
+#option{
+    height: 28px;
+    width: 160px;
+    /* padding-left: 20px; */
+    font-size: 16px;
+    outline: none;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+.submit{
+    height: 35px;
+    width: 100px;
+    border: none;
+    font-size: 16px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+    background-color: rgb(108, 108, 255);
+    border-radius: 15px;
+}
+#corw{
+    font-size:30px;
+    
+}
